@@ -2,46 +2,54 @@
 
 Welcome to my **NumPy Learning Repository**! This repository documents my hands-on journey of learning NumPy, a fundamental Python library for numerical computing, data manipulation, and scientific computing.
 
-I am building this repository step by step with Jupyter Notebooks, practical examples, and coding exercises as part of my journey toward **Data Science, Machine Learning, and Artificial Intelligence**.
+I am building this repository step by step using Jupyter Notebooks, practical examples, and coding exercises as part of my journey toward **Data Science, Machine Learning, and Artificial Intelligence**.
 
 ## 🎯 Learning Objectives
 
 - Understand NumPy arrays and their advantages over Python lists.
 - Learn array creation, indexing, slicing, and reshaping.
-- Explore multidimensional arrays and axes.
-- Perform efficient mathematical and statistical computations.
+- Explore multidimensional arrays, dimensions, and axes.
+- Perform mathematical and statistical computations efficiently.
 - Understand vectorization and broadcasting.
+- Work with NumPy data types and array operations.
 - Practice numerical operations through hands-on examples.
 
 ## 📚 Topics Covered
 
 ### 1. NumPy Fundamentals
 - Introduction to NumPy
-- Installation and Usage
-- Python List vs. NumPy Array
+- Python Lists vs. NumPy Arrays
 - Creating Arrays from Python Lists
-- Creating Arrays Using Built-in Methods
+- Creating Arrays Using Built-in Functions
 - Array Properties and Attributes
+- NumPy Data Types and Type Conversion
 
 ### 2. Array Manipulation
 - Reshaping Arrays
-- Indexing on Arrays
-- Slicing Arrays
-- Copy vs. View in Slices
+- Array Indexing and Slicing
+- Fancy Indexing
+- Boolean Indexing
+- Copy vs. View
+- Working with Multidimensional Arrays
 
-### 3. Data Types and Dimensions
-- Common NumPy Data Types
-- Multidimensional Arrays and Axes
+### 3. Dimensions and Axes
+- One-Dimensional and Two-Dimensional Arrays
 - Working with 3D Arrays
+- Understanding Axes
+- Array Shape and Dimensions
 
 ### 4. Vectorization and Broadcasting
-- Vectorization
-- Broadcasting
+- Vectorized Operations
+- Broadcasting Rules
+- Efficient Array Computations
 - Vector Normalization
 
 ### 5. Mathematical and Statistical Operations
+- Aggregate Functions
 - Mean and Standard Deviation
-- Aggregate Mathematical Functions
+- Mathematical Operations
+- Rounding and Absolute Values
+- Sorting and Unique Elements
 - Other Mathematical Functions
 
 ## 🛠️ Technologies & Tools
@@ -56,13 +64,15 @@ I am building this repository step by step with Jupyter Notebooks, practical exa
 ```text
 numpy-learning/
 │
-├── 01_numpy_intro.ipynb
+├── numpy_tutorial_update.ipynb
+├── numpy_tutorial.ipynb
 ├── thinking_data.ipynb
 ├── store_data.json
+├── LICENSE
 └── README.md
 ```
 
-*The repository structure will evolve as I learn and add more notebooks, examples, and practice exercises.*
+*The repository structure may evolve as I learn and add more notebooks, examples, and practice exercises.*
 
 ## 🚀 Getting Started
 
@@ -70,6 +80,7 @@ numpy-learning/
 
 - Python 3.x
 - Jupyter Notebook or JupyterLab
+- Git (optional, for cloning the repository)
 
 ### Installation
 
@@ -77,6 +88,12 @@ Install NumPy using pip:
 
 ```bash
 pip install numpy
+```
+
+Install JupyterLab if needed:
+
+```bash
+pip install jupyterlab
 ```
 
 ### Run the Notebook
@@ -99,33 +116,34 @@ pip install numpy
    jupyter lab
    ```
 
-4. Open `01_numpy_intro.ipynb` and start exploring the code.
+4. Open `numpy_tutorial_update.ipynb` and start exploring the code.
 
 ## 📈 Learning Approach
 
 For every topic, I aim to:
-- Understand the underlying concepts.
+
+- Understand the underlying concepts from the basics.
 - Write and execute Python code examples.
-- Explore practical use cases.
+- Explore practical and real-world use cases.
 - Solve exercises to strengthen my understanding.
 - Document my progress through Jupyter Notebooks.
 
 ## 🎯 Future Goals
 
-- Master advanced NumPy operations.
+- Strengthen my understanding of NumPy and numerical computing.
 - Apply NumPy to real-world datasets.
-- Use NumPy as a foundation for Pandas, Data Analysis, and Machine Learning.
+- Learn Pandas for data manipulation and analysis.
+- Use NumPy and Pandas as foundations for Machine Learning.
 - Build practical Data Science and AI/ML projects.
 
 ## 👨‍💻 About Me
 
 **Priyam Shankar**
 
-B.Tech Student | Electronics & Communication Engineering
-
+B.Tech Student | Electronics & Communication Engineering  
 Assam University, Silchar
 
-I am continuously learning Python, Data Science, Machine Learning, and AI by building projects and practicing hands-on coding.
+I am continuously learning Python, Data Science, Machine Learning, and AI through hands-on coding, practical exercises, and project development.
 
 🔗 **GitHub:** [priyam-shankar](https://github.com/priyam-shankar)
 
